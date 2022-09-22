@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(3, 17, 18);
+}
+.ball{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.conatiner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bounce1{
+    background-color:red;
+    animation: bounce 4s ease-in-out infinite;
+}
+.bounce2{
+    background-color:orange;
+    animation: bounce 4s ease-in-out 0.5s infinite;
+
+}
+.bounce3{
+    background-color:yellow;
+    animation: bounce 4s ease-in-out 0.8s infinite;
+
+}
+.bounce4{
+    background-color:green;
+    animation: bounce 4s ease-in-out 1.1s infinite;
+
+}
+.bounce5{
+    background-color:blue;
+    animation: bounce 4s ease-in-out 1.3s infinite;
+
+}
+.bounce6{
+    background-color:indigo;
+    animation: bounce 4s ease-in-out 1.6s infinite;
+
+}
+.bounce7{
+    background-color:violet;
+    animation: bounce 4s ease-in-out 1.9s infinite;
+
+}
+@keyframes bounce{
+    0%{transform: translate(0,0);}
+    50%{transform: translate(0,500px);}
+    100%{transform: translate(0,0);}
+
+}
